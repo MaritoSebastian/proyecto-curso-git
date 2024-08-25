@@ -1,4 +1,15 @@
-body{
-    background-color: grey;
-    color: aliceblue;
+
+#carouselExampleFade,.carousel-inner,.carousel-item{
+ 
+
+height: 500px;
+width: 1500px;
+object-fit: cover;
+
+}
+.carousel-item img{
+
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
 }
