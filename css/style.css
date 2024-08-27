@@ -1,9 +1,7 @@
 body{
-    
     color: aliceblue;
 }
-.logo-ring{
-
+.logo-ring {
     width: 150px;
     height: 50px;
     object-fit: cover;
@@ -37,4 +35,9 @@ height: 500px;
 
 
 
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
 }
