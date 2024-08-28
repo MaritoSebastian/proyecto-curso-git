@@ -1,43 +1,124 @@
-body{
-    color: aliceblue;
+body {
+  color: aliceblue;
 }
 .logo-ring {
-    width: 150px;
-    height: 50px;
-    object-fit: cover;
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
 }
-#carouselExampleFade,.carousel-inner,.carousel-item{
-height: 500px;
-
-
-
+#carouselExampleFade,
+.carousel-inner,
+.carousel-item {
+  height: 500px;
 }
-.carousel-inner{
-    position: relative;
-
-
+.carousel-inner {
+  position: relative;
 }
-.carousel-item img{
-
-    height: 100%;
-    object-fit: cover;
-    object-position:center;
-    filter: grayscale(0.8)
-} 
-.overlay{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.336) ;
-    z-index: 1;
-
-
-
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(0.8);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.336);
+  z-index: 1;
 }
 
-.card-img-top{
-    height: 300px;
-    object-fit: cover;
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
 }
+.card{
+  background: linear-gradient(to left, rgba(245, 245, 245, 1), rgba(169, 169, 169, 1));
+}
+#contactos {
+  margin: 0;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  color: #526581;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form_container {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 100%;
+  background: linear-gradient(to left, rgba(245, 245, 245, 1), rgba(169, 169, 169, 1));
+}
+.form_contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form_row {
+  display: flex;
+  gap: 10px;
+}
+.form_group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+label{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+
+}
+input{
+
+    padding: 9px;
+    border: solid #ccc;
+    border-radius: 5%;
+    font-size: 1em;
+}
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cancel_button{
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    border-radius: 5%;
+    color: white;
+    background-color: #c4b2b2;
+    
+    &:hover{
+
+        outline: 2px solid white;
+        background-color: #504f55;
+    
+    }
+
+
+
+}
+.submite_button{
+    background: #c4b2b2 ;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+        background-color: #526581;
+        outline: 2px solid white;
+    }
+
+
+
+}
+
